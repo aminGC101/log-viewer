@@ -54,6 +54,7 @@
     "@angular-builders/custom-webpack": "^14.1.0",
     "@angular-builders/dev-server": "^7.3.1",
     "@angular-devkit/build-angular": "^14.2.11",
+    "@scaffoldly/ngx-scripts": "^5.0.4",
     "@angular/cli": "^14.2.10",
     "@angular/cdk": "^14.2.7",
     "@angular/compiler-cli": "^14.2.12",

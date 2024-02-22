@@ -7,19 +7,19 @@ import com.logviewer.web.dto.events.BackendErrorEvent;
 import com.logviewer.web.rmt.MethodCall;
 import com.logviewer.web.rmt.RemoteInvoker;
 import com.logviewer.web.session.LogSession;
+import jakarta.websocket.*;
+import jakarta.websocket.Endpoint;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.lang.NonNull;
 
-import javax.websocket.Endpoint;
-import javax.websocket.*;
 import java.lang.reflect.InvocationTargetException;
 import java.security.Principal;
 
-import static javax.websocket.CloseReason.CloseCodes.GOING_AWAY;
-import static javax.websocket.CloseReason.CloseCodes.NORMAL_CLOSURE;
+import static jakarta.websocket.CloseReason.CloseCodes.GOING_AWAY;
+import static jakarta.websocket.CloseReason.CloseCodes.NORMAL_CLOSURE;
 
 public class LogViewerWebsocket extends Endpoint {
 

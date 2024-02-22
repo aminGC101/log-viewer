@@ -128,7 +128,7 @@ public abstract class AbstractConnection implements AutoCloseable {
     }
 
 
-    private class WriteCompletionHandler implements java.nio.channels.CompletionHandler<Integer, ByteBuffer> {
+    private class WriteCompletionHandler implements CompletionHandler<Integer, ByteBuffer> {
 
         @Override
         public void completed(Integer result, ByteBuffer attachment) {

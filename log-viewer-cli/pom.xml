@@ -17,7 +17,7 @@
     <url>https://github.com/sevdokimov/log-viewer</url>
 
     <properties>
-        <jetty.version>9.4.49.v20220914</jetty.version>
+        <jetty.version>11.0.20</jetty.version>
         <release.dir>${project.build.directory}/build-${project.version}</release.dir>
     </properties>
 
@@ -129,7 +129,7 @@
         <dependency>
             <groupId>org.eclipse.jetty.websocket</groupId>
             <artifactId>javax-websocket-server-impl</artifactId>
-            <version>${jetty.version}</version>
+            <version>9.4.54.v20240208</version>
         </dependency>
 
         <dependency>

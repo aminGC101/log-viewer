@@ -14,14 +14,14 @@ import com.logviewer.utils.RuntimeInterruptedException;
 import com.logviewer.web.session.LogDataListener;
 import com.logviewer.web.session.LogProcess;
 import com.logviewer.web.session.Status;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.lang.NonNull;
 import org.springframework.lang.Nullable;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import javax.swing.text.html.FormSubmitEvent;
 import java.io.IOException;
 import java.io.OutputStream;

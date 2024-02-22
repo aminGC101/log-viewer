@@ -8,6 +8,9 @@ import com.logviewer.web.dto.events.BackendEvent;
 import com.logviewer.web.rmt.MethodCall;
 import com.logviewer.web.rmt.RemoteInvoker;
 import com.logviewer.web.session.LogSession;
+import jakarta.servlet.AsyncContext;
+import jakarta.servlet.ServletResponse;
+import jakarta.servlet.http.HttpServletRequest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,9 +19,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.lang.NonNull;
 import org.springframework.lang.Nullable;
 
-import javax.servlet.AsyncContext;
-import javax.servlet.ServletResponse;
-import javax.servlet.http.HttpServletRequest;
+
 import javax.swing.text.html.FormSubmitEvent;
 import java.io.IOException;
 import java.lang.ref.WeakReference;

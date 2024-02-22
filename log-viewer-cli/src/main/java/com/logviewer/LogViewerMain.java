@@ -245,7 +245,7 @@ public class LogViewerMain {
 
             String sName = extractString(name, "name");
 
-            if (userStore.getUserIdentity(sName) != null)
+            if (userStore.getUserPrincipal(sName) != null)
                 throw new IllegalArgumentException("Invalid configuration [line=" + user.origin().lineNumber() + "] duplicated user: \"" + sName + '"');
 
             userStore.addUser(sName, credential(user, sName), new String[]{USER_ROLE});

@@ -274,7 +274,7 @@ public class LogNavigatorController extends AbstractRestRequestHandler {
         }
 
         @Override
-        public int compareTo(@NonNull LogNavigatorController.FsItem o) {
+        public int compareTo(@NonNull FsItem o) {
             if (isDirectory != o.isDirectory)
                 return isDirectory ? -1 : 1;
 
