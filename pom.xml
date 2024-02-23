@@ -11,7 +11,7 @@
 
     <url>https://github.com/sevdokimov/log-viewer</url>
 
-    <version>1.0.8-SNAPSHOT</version>
+    <version>1.0.9-SNAPSHOT</version>
 
     <properties>
         <log4j.version>2.17.1</log4j.version>
@@ -26,18 +26,6 @@
     </modules>
 
     <profiles>
-        <profile>
-            <id>demo-projects</id>
-            <modules>
-                <module>demo/log-generator</module>
-                <module>demo/simple-java-web-application</module>
-                <module>demo/spring-boot-1.5</module>
-                <module>demo/spring-boot-2.0</module>
-                <module>demo/spring-boot-2.3</module>
-                <module>demo/spring-boot-2.3-log4j</module>
-            </modules>
-        </profile>
-
         <profile>
             <id>sign</id>
             <activation>
