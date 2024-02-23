@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>io.github.sevdokimov.logviewer</groupId>
+        <groupId>com.github.aminbh112.log-viewer</groupId>
         <artifactId>log-parent</artifactId>
         <version>1.0.8-SNAPSHOT</version>
     </parent>
