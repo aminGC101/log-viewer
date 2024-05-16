@@ -26,13 +26,13 @@ public class ConfigDirHolderImpl implements ConfigDirHolder {
 
         this.configDir = Paths.get(configDir);
 
-        if (!Files.isDirectory(this.configDir)) {
+        /*if (!Files.isDirectory(this.configDir)) {
             try {
                 Files.createDirectory(this.configDir);
             } catch (IOException e) {
                 throw new RuntimeException("Failed to create config directory: " + this.configDir, e);
             }
-        }
+        }*/
     }
 
     @Override
